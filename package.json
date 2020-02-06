@@ -1,7 +1,13 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "@storyblok-components/*"
+  ],
   "devDependencies": {
     "lerna": "^3.17.0"
+  },
+  "scripts": {
+    "start": "echo start"
   }
 }

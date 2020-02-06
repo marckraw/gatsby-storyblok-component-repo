@@ -1,4 +1,7 @@
 {
-    "packages": ["components/*"],
-    "version": "0.0.0"
+  "lerna": "3.19.0",
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": ["@storyblok-components/*"]
 }
