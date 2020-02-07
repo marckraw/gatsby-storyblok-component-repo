@@ -1,7 +1,7 @@
 {
   "name": "@storyblok-components/text-block",
   "private": false,
-  "version": "0.0.15",
+  "version": "0.0.18",
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -9,7 +9,7 @@
   },
   "main": "./dist/text-block.js",
   "scripts": {
-    "prepublish": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
+    "prepare": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
   },
   "peerDependencies": {
     "react": "^16.4.0",
@@ -28,9 +28,15 @@
       "last 1 safari version"
     ]
   },
+  "keywords": [
+    "@storyblok-components",
+    "storyblok",
+    "component",
+    "text-block"
+  ],
   "devDependencies": {
     "@babel/cli": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/core": "^7.8.4"
+    "@babel/core": "^7.8.4",
+    "@babel/preset-react": "^7.0.0"
   }
 }
