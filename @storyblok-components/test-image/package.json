@@ -1,7 +1,7 @@
 {
   "name": "@storyblok-components/test-image",
   "private": false,
-  "version": "0.0.9",
+  "version": "0.0.10",
   "babel": {
     "presets": [
       "@babel/preset-react"
@@ -9,7 +9,7 @@
   },
   "main": "./dist/test-image.js",
   "scripts": {
-    "prepublish": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
+    "prepare": "rm -rf dist && mkdir dist &&  babel ./src -d dist --copy-files"
   },
   "peerDependencies": {
     "react": "^16.4.0",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "@babel/core": "^7.8.4"
+    "@babel/core": "^7.8.4",
+    "@babel/preset-react": "^7.0.0"
   }
 }
